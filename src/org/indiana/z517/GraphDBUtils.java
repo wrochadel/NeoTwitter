@@ -37,6 +37,7 @@ public class GraphDBUtils {
 		System.out.println();
 		System.out.println("Shutting down database now...");
 		dbService.shutdown();
+		System.out.println("Database successfully shut down.");
 	}
 	
 	private void registerShutdownHook(final GraphDatabaseService serveDB) {
